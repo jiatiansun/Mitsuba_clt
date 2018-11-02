@@ -21,7 +21,7 @@ If the project is successful, it can be used by experiments simulation by comput
 ### MileStones
 - 15300 MileStone: Finish structured light and light transport probing simulation by the end of the semester
 - 15400 MileStones:
-- - Feb 1st: Start experiment with different library that facilitates calculation of epipolar imaging--
+- - Feb 1st: Start experiment with different library that facilitates calculation of epipolar imaging
 - - Feb 15th: Add epipolar imaging feature to Mitsuba, the code should work in some general cases.
 - - March 1st：Test my rendering software against different epipolar imaging experiments
 - - March 22nd: Add transient imaging feature to Mitsuba, the code should work in some general cases
@@ -29,9 +29,9 @@ If the project is successful, it can be used by experiments simulation by comput
 - - April 19th: Add speckle imaging feature to Mitsuba, the code should work in some general cases
 - - May 3rd: Test my rendering software against different speckle imaging experiments
 ### Literature Search
-	To test the correctness of my software, I need to simulate many new computational imaging experiments. Thus, I researched papers of experiments of this kind, for example, Homogeneous Codes for energy-efficient illumination and imaging, by Mathew O’tool. Also, I need to read more rendering textbooks to strengthen my knowledge of rendering. Physically based rendering will be a great coding book for me to start with.  
+To test the correctness of my software, I need to simulate many new computational imaging experiments. Thus, I researched papers of experiments of this kind, for example, Homogeneous Codes for energy-efficient illumination and imaging, by Mathew O’tool. Also, I need to read more rendering textbooks to strengthen my knowledge of rendering. Physically based rendering will be a great coding book for me to start with.  
 	
 ### Resources Needed
-	I will need Mitsuba renderer to conduct my research. I already have it installed. Preferably, I need to run Mitsuba on Linux where the multi-threading function of Mitsuba works. However, because I only have a Mac myself, I need to run Mitsuba on a AWS Linux server, where I can run rendering processes with more parallelism. 
+I will need Mitsuba renderer to conduct my research. I already have it installed. Preferably, I need to run Mitsuba on Linux where the multi-threading function of Mitsuba works. However, because I only have a Mac myself, I need to run Mitsuba on a AWS Linux server, where I can run rendering processes with more parallelism. 
 
 
