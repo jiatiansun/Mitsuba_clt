@@ -50,7 +50,7 @@ I need to face some unexpected challenges like finding the best way to read a la
 ### Update for 15400 MileStones
 I don’t want to change much to my 15400 Milestone. Yet, after doing research this semester, I think it is the best to push back a little some of my milestones since the time I have during a semester is far less than what I have expected.
 Here is the updated milestone:
-15400 MileStones
+
 - Feb 1st: Start experiment with different library that facilitates calculation of epipolar imaging
 - Feb 15th: Add epipolar imaging feature to Mitsuba, the code should work in some general cases.
 - March 1st：Test my rendering software against different epipolar imaging experiments
