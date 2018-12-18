@@ -37,11 +37,9 @@ I will need Mitsuba renderer to conduct my research. I already have it installed
 
 # Updated Proposal 
 ### What I have Accomplished so far
-• Expanded Mitsuba renderer by perspective projector, orthographic projector, coded perspective camera and orthographic camera.
-
-• Improve the performance of projectors with importance sampling.
-
-• Test separation of direct and global components of scenes using high frequency illumination in extended Mitsuba renderer.
+- Expanded Mitsuba renderer by perspective projector, orthographic projector, coded perspective camera and orthographic camera.
+- Improve the performance of projectors with importance sampling.
+- Test separation of direct and global components of scenes using high frequency illumination in extended Mitsuba renderer.
 
 ### Meeting My Milestone
 Yes, I have met the milestone I described in my original project proposal. The coded perspective and orthographic cameras I implemented met my original milestone of finishing the structured light simulation. I am still working on the light transport probing simulation. To achieve this, I need to coordinate the projector and the camera so that the camera received lights coming from only certain rows or columns of an all-white perspective projector.
