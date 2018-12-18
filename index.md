@@ -35,3 +35,31 @@ To test the correctness of my software, I need to simulate many new computationa
 I will need Mitsuba renderer to conduct my research. I already have it installed. Preferably, I need to run Mitsuba on Linux where the multi-threading function of Mitsuba works. However, because I only have a Mac myself, I need to run Mitsuba on a AWS Linux server, where I can run rendering processes with more parallelism. 
 
 
+# Updated Proposal 
+### What I have Accomplished so far
+• Expanded Mitsuba renderer by perspective projector, orthographic projector,
+coded perspective camera and orthographic camera.
+• Improve the performance of projectors with importance sampling.
+• Test separation of direct and global components of scenes using high
+frequency illumination in extended Mitsuba renderer.
+
+### Meeting My Milestone
+Yes, I have met the milestone I described in my original project proposal. The coded perspective and orthographic cameras I implemented met my original milestone of finishing the structured light simulation. I am still working on the light transport probing simulation. To achieve this, I need to coordinate the projector and the camera so that the camera received lights coming from only certain rows or columns of an all-white perspective projector.
+Surprises
+
+I need to face some unexpected challenges like finding the best way to read a large c++ project. The good thing is that now I find a helpful IDE CLion to achieve this goald. Another surprise for me is that I found the testing my project takes a lot more time than what I have expected.  Sometimes it takes me weeks to actually have one feature of my project fully tested and it is still possible for me to find new bugs after I add new features to the project.
+
+### Update for 15400 MileStones
+I don’t want to change much to my 15400 Milestone. Yet, after doing research this semester, I think it is the best to push back a little some of my milestones since the time I have during a semester is far less than what I have expected.
+Here is the updated milestone:
+15400 MileStones
+- Feb 1st: Start experiment with different library that facilitates calculation of epipolar imaging
+- Feb 15th: Add epipolar imaging feature to Mitsuba, the code should work in some general cases.
+- March 1st：Test my rendering software against different epipolar imaging experiments
+- March 22nd: Add transient imaging feature to Mitsuba, the code should work in some general cases
+- April 5th~ May 2nd:: Test my rendering software against different transient imaging experiments
+- May 3rd: Add speckle imaging feature to Mitsuba, the code should work in some general cases 
+	
+### Resources Needed
+Since some of the computation in our rendering process requires a large amount of resources than what I have expected, so I lent an AWS account from my professor to make some computational heavy rendering. Also, sometimes I need to buy some meshes to test out my rendering algorithms
+
